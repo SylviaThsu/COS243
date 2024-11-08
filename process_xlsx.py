@@ -5,7 +5,7 @@ from openpyxl import load_workbook
    
 # Debug Mode (Set to False for production)
 DEBUG_MODE = True
-asdf
+
 # Logging Configuration
 logging.basicConfig(
     level=logging.DEBUG if DEBUG_MODE else logging.INFO,
