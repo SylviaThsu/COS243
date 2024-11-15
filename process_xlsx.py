@@ -2,7 +2,7 @@ import csv
 import logging
 import re
 from openpyxl import load_workbook
-   
+
 # Debug Mode (Set to False for production)
 DEBUG_MODE = True
 

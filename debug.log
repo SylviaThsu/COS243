@@ -1,0 +1,1464 @@
+2024-11-13 14:39:36,371 [INFO] Processing XLSX file: ./Coding-with-LLM/FTCM_Course List_Spring2025.xlsx
+2024-11-13 14:39:36,457 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 14:39:36,457 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 14:39:36,457 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,457 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,457 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,457 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,457 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 14:39:36,458 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,458 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,458 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 14:39:36,458 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,458 [DEBUG] Detected Department: ART
+2024-11-13 14:39:36,458 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,458 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,458 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,459 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,459 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,459 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,459 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,460 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 14:39:36,460 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,460 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,460 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 14:39:36,461 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 14:39:36,461 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 14:39:36,461 [DEBUG] Detected Department: Dance 
+2024-11-13 14:39:36,461 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,461 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,462 [DEBUG] Detected Department: Other
+2024-11-13 14:39:36,462 [DEBUG] Detected Program under Other: --
+2024-11-13 14:39:36,488 [INFO] Processing XLSX file: ./Coding-with-LLM/FTCM_Course List_Spring2025.xlsx
+2024-11-13 14:39:36,585 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 14:39:36,585 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 14:39:36,585 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,585 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,585 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,585 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,585 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 14:39:36,586 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,586 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,586 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 14:39:36,586 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:39:36,586 [DEBUG] Detected Department: ART
+2024-11-13 14:39:36,586 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 14:39:36,586 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,586 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:39:36,587 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:39:36,587 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:39:36,587 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,587 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:39:36,588 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 14:39:36,588 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:39:36,588 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,588 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 14:39:36,589 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 14:39:36,589 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 14:39:36,589 [DEBUG] Detected Department: Dance 
+2024-11-13 14:39:36,589 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,589 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:39:36,590 [DEBUG] Detected Department: Other
+2024-11-13 14:39:36,590 [DEBUG] Detected Program under Other: --
+2024-11-13 14:51:56,062 [INFO] Processing XLSX file: ./Coding-with-LLM/FTCM_Course List_Spring2025.xlsx
+2024-11-13 14:51:56,147 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 14:51:56,147 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 14:51:56,147 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:51:56,147 [DEBUG] Detected Department: ART
+2024-11-13 14:51:56,147 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,147 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 14:51:56,148 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:51:56,148 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:51:56,148 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,148 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:51:56,149 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:51:56,149 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,149 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 14:51:56,149 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:51:56,150 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 14:51:56,150 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 14:51:56,150 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 14:51:56,150 [DEBUG] Detected Department: Dance 
+2024-11-13 14:51:56,150 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,150 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:51:56,151 [DEBUG] Detected Department: Other
+2024-11-13 14:51:56,151 [DEBUG] Detected Program under Other: --
+2024-11-13 14:51:56,177 [INFO] Processing XLSX file: FTCM_Course List_Spring2025.xlsx
+2024-11-13 14:51:56,177 [ERROR] An error occurred: [Errno 2] No such file or directory: 'FTCM_Course List_Spring2025.xlsx'
+2024-11-13 14:51:56,177 [ERROR] Failed to process XLSX file
+2024-11-13 14:52:33,187 [INFO] Processing XLSX file: ./Coding-with-LLM/FTCM_Course List_Spring2025.xlsx
+2024-11-13 14:52:33,187 [ERROR] An error occurred: [Errno 2] No such file or directory: './Coding-with-LLM/FTCM_Course List_Spring2025.xlsx'
+2024-11-13 14:54:37,141 [INFO] Processing XLSX file: FTCM_Course List_Spring2025.xlsx
+2024-11-13 14:54:37,225 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 14:54:37,225 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 14:54:37,226 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 14:54:37,226 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 14:54:37,226 [DEBUG] Detected Department: ART
+2024-11-13 14:54:37,226 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 14:54:37,226 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,226 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 14:54:37,227 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 14:54:37,227 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,227 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 14:54:37,228 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 14:54:37,228 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 14:54:37,228 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 14:54:37,228 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,228 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 14:54:37,229 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 14:54:37,229 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 14:54:37,229 [DEBUG] Detected Department: Dance 
+2024-11-13 14:54:37,229 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,229 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 14:54:37,230 [DEBUG] Detected Department: Other
+2024-11-13 14:54:37,230 [DEBUG] Detected Program under Other: --
+2024-11-13 14:54:37,240 [INFO] Connecting to database: courses.db
+2024-11-13 14:54:37,242 [INFO] Saving DataFrame to table: courses
+2024-11-13 14:54:37,248 [INFO] Data successfully saved to SQLite database
+2024-11-13 14:54:37,248 [INFO] Verified 135 rows in table courses
+2024-11-13 14:54:37,248 [INFO] Process completed successfully
+2024-11-13 15:04:18,814 [INFO] Processing XLSX file: FTCM_Course List_Spring2025.xlsx
+2024-11-13 15:04:18,900 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 15:04:18,900 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 15:04:18,900 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 15:04:18,901 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 15:04:18,901 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:04:18,901 [DEBUG] Detected Department: ART
+2024-11-13 15:04:18,901 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 15:04:18,901 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,901 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:04:18,902 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:04:18,902 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,902 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:04:18,903 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:04:18,903 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,903 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,904 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 15:04:18,904 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:04:18,904 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 15:04:18,904 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 15:04:18,904 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 15:04:18,904 [DEBUG] Detected Department: Dance 
+2024-11-13 15:04:18,904 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,905 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,906 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:04:18,909 [DEBUG] Detected Department: Other
+2024-11-13 15:04:18,910 [DEBUG] Detected Program under Other: --
+2024-11-13 15:05:08,000 [INFO] Processing XLSX file: FTCM_Course List_Spring2025.xlsx
+2024-11-13 15:05:08,087 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 15:05:08,087 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 15:05:08,087 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,087 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,087 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,087 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,087 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 15:05:08,087 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:05:08,087 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,087 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 15:05:08,087 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,087 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 15:05:08,088 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:05:08,088 [DEBUG] Detected Department: ART
+2024-11-13 15:05:08,088 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 15:05:08,088 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,088 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:05:08,089 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:05:08,089 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:05:08,089 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:05:08,089 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:05:08,089 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 15:05:08,089 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 15:05:08,090 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:05:08,090 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,090 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 15:05:08,091 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 15:05:08,091 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 15:05:08,091 [DEBUG] Detected Department: Dance 
+2024-11-13 15:05:08,091 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,091 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:05:08,092 [DEBUG] Detected Department: Other
+2024-11-13 15:05:08,092 [DEBUG] Detected Program under Other: --
+2024-11-13 15:44:02,151 [INFO] Processing XLSX file: FTCM_Course List_Spring2025.xlsx
+2024-11-13 15:44:02,236 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 15:44:02,236 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 15:44:02,236 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:44:02,236 [DEBUG] Detected Department: ART
+2024-11-13 15:44:02,236 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,236 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 15:44:02,237 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:44:02,237 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:44:02,237 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,237 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:44:02,238 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:44:02,238 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,238 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,239 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 15:44:02,239 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:44:02,239 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 15:44:02,239 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 15:44:02,239 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 15:44:02,239 [DEBUG] Detected Department: Dance 
+2024-11-13 15:44:02,239 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,239 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,240 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,242 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,243 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:44:02,243 [DEBUG] Detected Department: Other
+2024-11-13 15:44:02,243 [DEBUG] Detected Program under Other: --
+2024-11-13 15:44:02,255 [INFO] Connecting to database: courses.db
+2024-11-13 15:44:02,257 [INFO] Saving DataFrame to table: courses
+2024-11-13 15:44:02,264 [INFO] Data successfully saved to SQLite database
+2024-11-13 15:44:02,265 [INFO] Verified 135 rows in table courses
+2024-11-13 15:44:02,265 [INFO] Process completed successfully
+2024-11-13 15:45:07,957 [INFO] Processing XLSX file: FTCM_Course List_Spring2025.xlsx
+2024-11-13 15:45:08,046 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 15:45:08,046 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 15:45:08,046 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:08,046 [DEBUG] Detected Department: ART
+2024-11-13 15:45:08,046 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,046 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 15:45:08,047 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:08,047 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,047 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:08,048 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:08,048 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:08,048 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:08,048 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 15:45:08,049 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:08,049 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,049 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 15:45:08,050 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 15:45:08,050 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 15:45:08,050 [DEBUG] Detected Department: Dance 
+2024-11-13 15:45:08,050 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,050 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,051 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,052 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:08,052 [DEBUG] Detected Department: Other
+2024-11-13 15:45:08,052 [DEBUG] Detected Program under Other: --
+2024-11-13 15:45:28,120 [INFO] Processing XLSX file: FTCM_Course List_Spring2025.xlsx
+2024-11-13 15:45:28,230 [DEBUG] Detected Department: Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Detected Program under Applied Math & Statistics: (Bachelor of Science)
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['MAT106'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['STA101'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['STA211'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['MAT207'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'STA211', 'Zhanglin Cui', 'STA-Y4', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I12-H12) + (K12-J12) + (M12-L12) + (O12-N12) + (Q12-P12) + (S12-R12),"")', '=VALUE(Z12 * (24*60))', '=IF(OR(T12="ONLINE",T12="IND STU"),0,IF(G12="Lecture", (C12*50), IF(G12="Seminar", (C12*50*1), IF(OR(G12="Lecture/Studio",G12="Lecture/Lab"), (C12*60*2), IF(G12="Studio", (C12*50*2), IF(G12="Ind Stu", (C12*0), (C12*60*2.75)))))))', '=IF(Z12 = "", "", IF(AA12<>AB12,AA12-AB12,""))', None, None, None, None, None, None]
+2024-11-13 15:45:28,230 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Bachelor of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Detected Program under Applied Math & Statistics: (Master of Science)
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['STA512'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'AMS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', 'Spring2024', None, None, '=IFERROR((I19-H19) + (K19-J19) + (M19-L19) + (O19-N19) + (Q19-P19) + (S19-R19),"")', '=VALUE(Z19 * (24*60))', '=IF(OR(T19="ONLINE",T19="IND STU"),0,IF(G19="Lecture", (C19*50), IF(G19="Seminar", (C19*50*1), IF(OR(G19="Lecture/Studio",G19="Lecture/Lab"), (C19*60*2), IF(G19="Studio", (C19*50*2), IF(G19="Ind Stu", (C19*0), (C19*60*2.75)))))))', '=IF(Z19 = "", "", IF(AA19<>AB19,AA19-AB19,""))', None, None, None, None, None, None]
+2024-11-13 15:45:28,230 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['STA421', 'STA521'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['STA571'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Added Course(s) ['STA751'] under (Master of Science) in Applied Math & Statistics
+2024-11-13 15:45:28,230 [DEBUG] Detected Department: ART
+2024-11-13 15:45:28,231 [DEBUG] Detected Program under ART: Arts Management (BFA)
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['ECO101'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['BUS121'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['BUS331'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['MKT321'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['ACC221'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['MGM431'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['MUS101B'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['MUS102B'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['MUS111B'] under Arts Management (BFA) in ART
+2024-11-13 15:45:28,231 [DEBUG] Detected Program under ART: Graphic Design Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['ART211'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DSG103'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DSG104'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DSG112'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DSG311'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DSG302'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DSG304'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DSG303'] under Graphic Design Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Detected Program under ART: Oil Painting Concentration (BFA in Fine Arts and Design)
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['ART101B'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DRP102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['ARH102'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DRP410'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DRP323'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['ART107'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,231 [DEBUG] Added Course(s) ['DRP221'] under Oil Painting Concentration (BFA in Fine Arts and Design) in ART
+2024-11-13 15:45:28,232 [DEBUG] Detected Program under ART: Fine Art (Master of Fine Arts)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['ARH501A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['ARH611A'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['ADR532'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['ADR535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['FOC751R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['ART572'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['ADR641R'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['ART535'] under Fine Art (Master of Fine Arts) in ART
+2024-11-13 15:45:28,232 [DEBUG] Detected Department: Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BMS343'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BSC102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BSC102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['CHM102'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['CHM102L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BSC212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BSC212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['CHM212'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['CHM212L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BSC322'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BMS141'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BSC432'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BMS323'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BMS323L'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BMS361'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,232 [DEBUG] Added Course(s) ['BMS461'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['BMS462'] under directly in department in Biomedical Science (BMS)
+2024-11-13 15:45:28,233 [DEBUG] Detected Department: Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS105'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS153'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS225'] under directly in department in Computer Science (CS), Computer Networks and Cybersecurity (CNCS)
+2024-11-13 15:45:28,233 [DEBUG] Detected Department: Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Detected Program under Data Science (DS): Data Science (Bachelor of Science)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS102'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS149'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS205'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS241'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS251'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS331'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS346'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS452'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS491'] under Data Science (Bachelor of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Detected Program under Data Science (DS): Data Science (Master of Science)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS501'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS502'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS522'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS531'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['DAS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [DEBUG] Added Course(s) ['COS541'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,233 [INFO] Splitting course for row: ['STA421/521', 'Design and Analysis of Experiments', 3.0, 'None', 'Zhanglin Cui', 'DS-MS', 'Lecture', None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, datetime.time(16, 0), datetime.time(17, 15), None, None, None, None, None, None, 'D325', None, None, None, '=IFERROR((I133-H133) + (K133-J133) + (M133-L133) + (O133-N133) + (Q133-P133) + (S133-R133),"")', '=VALUE(Z133 * (24*60))', '=IF(OR(T133="ONLINE",T133="IND STU"),0,IF(G133="Lecture", (C133*50), IF(G133="Seminar", (C133*50*1), IF(OR(G133="Lecture/Studio",G133="Lecture/Lab"), (C133*60*2), IF(G133="Studio", (C133*50*2), IF(G133="Ind Stu", (C133*0), (C133*60*2.75)))))))', '=IF(Z133 = "", "", IF(AA133<>AB133,AA133-AB133,""))', None, None, None, None, None, None]
+2024-11-13 15:45:28,234 [INFO] course_codes: ['STA421', 'STA521']
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['STA421', 'STA521'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['COS643'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['DAS761'] under Data Science (Master of Science) in Data Science (DS)
+2024-11-13 15:45:28,234 [DEBUG] Detected Department: General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['SOC101'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['PSY101'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['MUS204'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['BSC100'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['BSC100L'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['ENG101'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['ENG205'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['ENG221'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['ENG201'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['CIV111'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['CIV113'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['HUM125'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['PHL131'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,234 [DEBUG] Added Course(s) ['ARH102'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['MAT101'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['STA101'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['CLC112'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['CLC212'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['CLC312'] under directly in department in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Detected Program under General Education (GE): LAS004
+2024-11-13 15:45:28,235 [DEBUG] Detected Program under General Education (GE): LAS005
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['ECO101'] under LAS005 in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['QCI400'] under LAS005 in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['PEW102'] under LAS005 in General Education (GE)
+2024-11-13 15:45:28,235 [DEBUG] Detected Program under General Education (GE): ESL005
+2024-11-13 15:45:28,235 [DEBUG] Detected Department: Dance 
+2024-11-13 15:45:28,235 [DEBUG] Detected Program under Dance : Dance (Bachelor of Fine Arts)
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['BUS121'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN101R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN101R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN121R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN102R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN102R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN103R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN104R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN104R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,235 [DEBUG] Added Course(s) ['DAN143R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN201R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN201R - M'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN202R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN221R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN203R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN301R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN321R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN335'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN401R - F'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN421R'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN451'] under Dance (Bachelor of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Detected Program under Dance : Dance (Master of Fine Arts)
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN601R - F'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN535'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN543'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN621R'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN531'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN545'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN646'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['LAS550'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Added Course(s) ['DAN652'] under Dance (Master of Fine Arts) in Dance 
+2024-11-13 15:45:28,236 [DEBUG] Detected Department: Other
+2024-11-13 15:45:28,237 [DEBUG] Detected Program under Other: --
